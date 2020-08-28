@@ -81,7 +81,7 @@ async def shop(ctx):
 				)
 
 	await ctx.message.delete()
-	embed.set_footer(text = 'Страница 1 из 1 | Напишите `=buy_role <key>` для покупки роли.\nПример - `=buy_role 730820697441435659`')
+	embed.set_footer(text = 'Страница 1 из 1 | Напишите `=buy_role <key>` для покупки роли. Пример - `=buy_role 1`')
 	await ctx.send(embed = embed)
 
 
